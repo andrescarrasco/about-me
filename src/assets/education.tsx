@@ -28,9 +28,9 @@ This research resulted in a [scientific publication](https://doi.org/10.1145/324
 - __Increasing Reliability of Distributed SDN Controllers for Wireless Networks__.
 In this research internship, I proposed and implemented a strategy for increasing reliability of Software Defined Networks using the [Raft consensus algorithm](https://raft.github.io/).
 - __The Ubiquity of Test Smells: An Empirical Study__.
-In this master thesis, I mined GitHub using [Boa](http://web.cs.ucla.edu/~shyoo1st/boa/) looking for the existence and frequency of 7 well known test smells. 
+In this master thesis, I mined GitHub using [Boa](http://web.cs.ucla.edu/~shyoo1st/boa/) looking for the existence and frequency of 7 well-known test smells. 
 The study concludes that _Assertion Roulette_ is the most common followed by _Test Code Duplication_, _Assertionless_ and _Verbose Test_. 
-Moreover, the larger a project is the more likely it contains test smell and where introduced when creating the test.
+Moreover, the larger a project is the more likely it contains test smells and where introduced when creating the test.
       `,
     },
     {
