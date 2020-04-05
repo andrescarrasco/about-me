@@ -34,7 +34,7 @@ export default class ProfileLink extends React.Component<ProfileLinkProps, {}> {
         <Link
           target="_blank"
           color="secondary"
-          href={`https:www.linkedin.com/in/${this.props.username}`}
+          href={`https://www.linkedin.com/in/${this.props.username}`}
           underline="hover"
         >
           {`LinkedIn`}
