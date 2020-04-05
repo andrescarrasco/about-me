@@ -2,7 +2,7 @@
   "name": "andrescarrasco.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://andrescarrasco.github.io",
+  "homepage": "https://andrescarrasco.github.io/about-me/",
   "dependencies": {
     "@material-ui/core": "^4.9.7",
     "@material-ui/icons": "^4.9.1",
