@@ -22,7 +22,7 @@ Some of my responsibilities include:
 
 As well as, designing, developing, and maintaining:
 - A CI/CD pipeline for the development of the front-end and back-end services
-- A RESTful API using AWS Serverless Application Model using NodeJS and TypeScript
+- A RESTful API using AWS Serverless Application Model, NodeJS, and TypeScript
 - A back-end infrastructure using AWS IoT, AWS CloudFormation and other AWS services
 - Multiple client applications using React and TypeScript
 - Signal collection devices in Golang and, to a lesser extent, C++
@@ -40,7 +40,7 @@ As well as, designing, developing, and maintaining:
 As a Software Developer I fulfilled two roles during my time working for Cenarion.
 
 At the beginning, I started as intern of the team developing of a [workflow management system](https://cenarion.com/leistungen/versicherungsloesungen.html) (NEXA Plus) for the insurance sector in Java. 
-Throughout my internship I gradually contributed to the team staring with small tasks, however, I quickly got more responsibility from my colleagues.
+Throughout my internship I gradually contributed to the team starting with small tasks, however, I quickly got more responsibility from my colleagues.
 At the end of my internship, I was part of the development team, and thus got hired as a Software Developer.
 
 I contributed for the next months to the core development of NEXA Plus, and also in the maintenance of legacy versions of the NEXA solution. 
