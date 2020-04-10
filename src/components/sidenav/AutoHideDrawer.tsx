@@ -6,7 +6,7 @@ import { Section, Profile } from "models/Content";
 import { Code, Work, Build, LocalLibrary, Language, Public } from "@material-ui/icons";
 
 const drawerWidth = "20vw";
-const drawerMaxWidth = 230;
+const drawerMaxWidth = 280;
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const useStyles = (theme: Theme): any =>
   createStyles({
