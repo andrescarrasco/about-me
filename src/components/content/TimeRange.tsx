@@ -1,17 +1,16 @@
 import React from "react";
 import { Typography } from "@material-ui/core";
-
-const MILLISECONDS_DAY = 1000 * 60 * 60 * 24;
-const DAYS_YEAR = 365;
-const DAYS_MONTH = 30;
+import moment from "moment";
 
 function timeInYearsBetween(start: Date, end?: Date): string {
   if (!end) {
     end = new Date();
   }
-  const days = Math.round(Math.abs(start.getTime() - end.getTime()) / MILLISECONDS_DAY);
-  const years = Math.floor(days / DAYS_YEAR);
-  const months = Math.ceil((days % DAYS_YEAR) / DAYS_MONTH);
+  const _start = moment(start).startOf("month");
+  const _end = moment(end).endOf("month");
+  const duration = moment.duration(_end.diff(_start));
+  const months = Math.floor(duration.asMonths() % 12);
+  const years = Math.floor(Math.ceil(duration.asMonths()) / 12);
   let result = "";
   if (years) {
     result += `${years} ${years > 1 ? "yrs" : "yr"}`;
