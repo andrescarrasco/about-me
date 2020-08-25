@@ -5,7 +5,15 @@ export const ExperienceContent: Section = {
   type: "experience",
   entries: [
     {
+      start: new Date(2020, 7),
+      company: "Austrian Institute of Technology GmbH",
+      position: "Research Engineer",
+      website: "https://www.ait.ac.at",
+      location: "Vienna, Austria",
+    },
+    {
       start: new Date(2018, 7),
+      end: new Date(2020, 6),
       company: "Byteflies",
       position: "Software Engineer and Scrum Master",
       website: "www.byteflies.com",
