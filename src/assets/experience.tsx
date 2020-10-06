@@ -10,6 +10,9 @@ export const ExperienceContent: Section = {
       position: "Research Engineer",
       website: "https://www.ait.ac.at",
       location: "Vienna, Austria",
+      summary: `
+I act as a Lead Engineer for the Cooperative Digital Technologies unit at the AIT Austrian Institute of Technology, focusing on cooperative systems, such as interoperability solutions and distributed sensor networks. My work includes assessing and selecting appropriate technologies, developing modern solutions, as well as optimizing the software development process.
+      `
     },
     {
       start: new Date(2018, 7),
